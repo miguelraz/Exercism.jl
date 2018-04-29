@@ -1,5 +1,8 @@
 module Exercism
 
-# package code goes here
+include("init.jl")
+include("commands.jl")
+
+config = init()
 
 end # module
